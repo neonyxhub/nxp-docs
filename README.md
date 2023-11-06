@@ -4,7 +4,7 @@ It is used as a server to store and transfer data accross the network, to unlock
 
 ### Where to go?
 
-**[Architecture](architecture/README.md)**
+**[Architecture](architecture)**
 
 This section will explain you high NXP-node works inside.
 

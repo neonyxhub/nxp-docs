@@ -1,5 +1,4 @@
 ### Overview
----
 Dispatcher is a distributor of the events from SWN to [modules](/modules/README.md). In our implementation we use message broker [NATS](https://nats.io/), but dispatcher SHOULD be abstract from the used technologies.
 
 Dispatcher responsibilities:

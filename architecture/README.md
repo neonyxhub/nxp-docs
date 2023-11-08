@@ -1,5 +1,4 @@
 ### Architecture
----
 Each Nxp-Node have structure below:
 
 ![](/img/nxp-node-overview.jpg)

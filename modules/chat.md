@@ -1,0 +1,9 @@
+- /chat/:chatId -get chat information by selected chatID
+- /chat/:chatId/message/:messageId - get chat message by messageID
+- /chat/:chatId/message/list get list of chat messages
+- /chat/:chatId/message/send - send chat message
+- /chat/:chatId/message/update - update chat message
+- /chat/create - create chat
+- /chat/list - get all chats' information
+- /chat/update - update chat information
+- /chat/ws - listen new messages from chat topic

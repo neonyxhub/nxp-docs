@@ -1,5 +1,5 @@
 ### Overview
----
+
 **S**overeign **W**eb **N**ode is main networking unit in Neonyx Node.
 
 On client side, SWN is used to send events from user to network and fetch incoming events from network for further process of delivering this action directly to user interface.
@@ -10,7 +10,7 @@ SWN stands for:
 - Support [required protocols](#protocols) to build the core of Neonyx Functional Layer.
 
 ### Protocols
----
+
 List of libp2p protocols, supported by SWN additionaly to regular libp2p node.
 
 ```/swn/eventbus/%v``` - protocol to exchange events accross p2p network

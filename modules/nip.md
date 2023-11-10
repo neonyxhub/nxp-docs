@@ -1,0 +1,5 @@
+- /auth/getChallenge - get challenge to sign
+- /auth/sendChallenge - send signed challenge
+- /auth/checkJWT - check validity of provided access token
+- /didAuth/getChallenge - get challenge to sign with DID
+- /didAuth/sendChallenge - send signed DID-auth challenge

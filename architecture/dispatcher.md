@@ -7,7 +7,7 @@ Dispatcher responsibilities:
 - Allow module-module request-response negotiations, without going outside nxp-node.
 
 ### How it works?
----
+
 Dispatcher's role really consists in passing events to the destination in face of module. So, our choice by now is regular pubsub and developing something else will be just re-creating message brokers with some upgrades.
 
 **Incoming requests from network:**

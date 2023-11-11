@@ -1,7 +1,8 @@
 Modules are microservices, which implement [lexicons](#lexicons), pinned to them. They are placed inside the NXP Node, get requests, send responses and communicate with each other with help of [dispatcher](/architecture/dispatcher.md).
 
 ### TODO
-- [ ] Lexicons Specification, including data and URI standarts
+- [x] Lexicons Specification, including data and URI standarts
+- [ ] Fill exact list of lexicons
 
 ### Lexicons
 **Lexicon** - is a RPC, associated with uri, built by rules, dictated by specification.
@@ -21,7 +22,10 @@ Module, to provide functionality to private, public, group chats.
 Manage your account inside provider.
 
 [**/nip/***](account.md)
-DID-auth, manage access tokens, control your identity/
+DID-auth, manage access tokens, control your identity.
 
 [**/didman/***](didman.md)
 Module, which allows UI to interact with DID's, extract and manage keys and data.
+
+[**/acl/***](acl.md)
+Allows your to control accesses of other users to your data and actions on your public and private info.

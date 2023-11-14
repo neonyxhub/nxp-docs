@@ -1,5 +1,5 @@
 ### Architecture
-Each Nxp-Node have structure below:
+Neonyx Protocol Node stands for receiving events, coming from network by neonyx protocol standarts. It could have some lexicons implemented inside and should have functionality to route requests to this lexicons (on scheme local PubSub stands for this routing job):
 
 ![](/img/nxp-node-overview.jpg)
 
